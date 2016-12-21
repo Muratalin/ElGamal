@@ -1,0 +1,18 @@
+Prime modulus is 65537
+Primitive root wrt 65537 is 3
+
+Choose: e (encrypt) | d (decrypt) |k (get public key) | x (exit)? Type private key: k
+Type private key: 10000
+Public key is: 19502
+
+Choose: e (encrypt) | d (decrypt) |k (get public key) | x (exit)? Type secret number to send: Type recipient's public key: e
+Type secret number to send: 12341
+Type recipient's public key: 19502
+The encrypted secret is: (45415, 34838)
+
+Choose: e (encrypt) | d (decrypt) |k (get public key) | x (exit)? Type the recieved message in the form (a,b): Type in your private key: d
+Type the recieved message in the form (a,b): 45415 34838
+Type in your private key: 10000 
+The decrypted secret is: 12341
+
+Choose: e (encrypt) | d (decrypt) |k (get public key) | x (exit)? x 
