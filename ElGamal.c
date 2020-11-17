@@ -84,8 +84,8 @@ int main(int argc, char **argv) {
 
     unsigned long int a, b, g, x, p, y, m, k, s, sInv;
     char choice;
-    p=65537;
-    g=3;
+    p=53;
+    g=12;
 
     printf("Prime modulus is %lu\n", p);
     printf("Primitive root wrt %lu is %lu\n", p, g);
